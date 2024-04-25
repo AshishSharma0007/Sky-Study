@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <style>
+    .custom-input-width {
+  width: 200px;
+}
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+  <div class="container mt-2">
+    <nav class="navbar navbar-expand-lg bg-body-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary" href="#">Sky Study</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">My Learning</a>
+            </li>
+            <li class="nav-item dropdown text-light">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                My Courses
+              </a>
+              <ul class="dropdown-menu text-light">
+                <li><a class="dropdown-item" href="#">My Purchases</a></li>
+                <li><a class="dropdown-item" href="#">Updates</a></li>
+                <li><a class="dropdown-item" href="#">Accomplishments</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+
+                <li>
+                  <hr class="dropdown-divider text-light">
+                </li>
+                <li><a class="dropdown-item" href="#">Show More</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">AIHub</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary custom-input-width" type="submit">Search</button>
+            <a class="btn btn-outline-success custom-input-width mx-2" href="login.html" type="submit">Login</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container fixed-height-container my-2">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-photo/diverse-team-people-analyzing-data-charts-report-digital-tablet-using-online-networking-information-plan-business-project-colelagues-looking-diagrams-infographics-close-up_482257-50696.jpg?t=st=1714032559~exp=1714036159~hmac=f33b2596137b20cb8220474d920991de2d2960e99ccf1ffc58e9de07e0be047f&w=1380" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Empowering Minds</h5>
+            <p>One Byte at a Time: AI-Powered Education.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="https://img.freepik.com/free-photo/robot-working-as-teacher-instead-humans_23-2150912075.jpg?t=st=1714034948~exp=1714038548~hmac=5607999fc8de06c8b3148021de9035fd2f57da735d2b78274f160375bc4c94a4&w=1380" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Virtual Tutor</h5>
+            <p>Unlocking Learning Potential with AI.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-photo/tired-woman-architect-working-modern-cad-program-overtime-sitting-desk-start-up-office-industrial-female-engineer-studying-prototype-idea-pc-showing-cad-software-device-display_482257-13399.jpg?t=st=1714032535~exp=1714036135~hmac=cf66c29042ab913586624bc227e2d0bc46e17e29c4225d70d004c03ba5e5e2ac&w=1380" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>AI at Your Fingertips</h5>
+            <p>Education Anytime, Anywhere.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col m-2">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/international-day-education-futuristic-style_23-2150998678.jpg?t=st=1714039633~exp=1714043233~hmac=9c103d1fc6d6d7858b261ee7d4da6c4468d50bb7e29fe2f9df0a6381a726690b&w=740" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Information Technology</h5>
+              <p class="card-text">Information technology deals with the collection, storage, processing, and retrieval of data, enabling management and analysis. IT leverages cloud computing.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m-2">
+          <div class="card">
+            <img src="https://img.freepik.com/free-vector/isometric-university-background_23-2148168954.jpg?t=st=1714039673~exp=1714043273~hmac=40238f80f6479458656c0c03605cd16f4783b16a2b876aa3256d1156382fd69e&w=740" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lang. Learning</h5>
+              <p class="card-text">Language learning often involves immersing oneself in the culture associated with the target language to better understand its context and nuances.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m-2">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/international-day-education-futuristic-style-with-robot_23-2150998738.jpg?t=st=1714039786~exp=1714043386~hmac=9f91c8d49fa44b9150165cf26f39d4c4acc2301993d8a94b2da23aa40ccac7d4&w=740" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BlockChain</h5>
+              <p class="card-text">Blockchain technology utilizes cryptographic techniques and distributed networks to validate and record transactions.It also serves as a distributed ledger.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m-2">
+          <div class="card">
+            <img src="https://img.freepik.com/premium-photo/interconnected-blockchain-decentralized-network-with-glowing-edges_5095-1299.jpg?w=740" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Data Science</h5>
+              <p class="card-text">Data science scales computational techniques to handle big data and extract meaningful information efficiently involves the collection, cleaning.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
